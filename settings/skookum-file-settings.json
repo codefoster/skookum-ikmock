@@ -16,6 +16,8 @@
   },
 
   "interfaces": {},
+
+  "ssl": false,
   
   "pipedProviders": [{
     "id": "nmeaFromFile",
@@ -23,7 +25,7 @@
        { 
          "type": "providers/filestream",
          "options": {
-           "filename": "samples/plaka.log"
+           "filename": "samples/skookum-simtrip.log"
          },
          "optionMappings": [
            {
