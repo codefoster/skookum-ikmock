@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "changelog": "github-changes -o signalk -r signalk-server-node -a --only-pulls --use-commit-body --data=pulls",
-    "start": "node bin/signalk-server",
+    "start": "node bin/signalk-server -s settings/skookum-file-settings.json",
     "test": "mocha"
   },
   "bin": {
